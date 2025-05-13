@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		459AE7192DD3053400364B7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 459AE7022DD3053200364B7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 459AE7092DD3053200364B7F;
+			remoteInfo = prunely;
+		};
+		459AE7232DD3053400364B7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 459AE7022DD3053200364B7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 459AE7092DD3053200364B7F;
+			remoteInfo = prunely;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		459AE70A2DD3053200364B7F /* prunely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prunely.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		459AE7182DD3053400364B7F /* prunelyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prunelyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		459AE7222DD3053400364B7F /* prunelyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prunelyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		459AE70C2DD3053200364B7F /* prunely */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = prunely;
+			sourceTree = "<group>";
+		};
+		459AE71B2DD3053400364B7F /* prunelyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = prunelyTests;
+			sourceTree = "<group>";
+		};
+		459AE7252DD3053400364B7F /* prunelyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = prunelyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		459AE7072DD3053200364B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459AE7152DD3053400364B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459AE71F2DD3053400364B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		459AE7012DD3053200364B7F = {
+			isa = PBXGroup;
+			children = (
+				459AE70C2DD3053200364B7F /* prunely */,
+				459AE71B2DD3053400364B7F /* prunelyTests */,
+				459AE7252DD3053400364B7F /* prunelyUITests */,
+				459AE70B2DD3053200364B7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		459AE70B2DD3053200364B7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				459AE70A2DD3053200364B7F /* prunely.app */,
+				459AE7182DD3053400364B7F /* prunelyTests.xctest */,
+				459AE7222DD3053400364B7F /* prunelyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		459AE7092DD3053200364B7F /* prunely */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 459AE72C2DD3053400364B7F /* Build configuration list for PBXNativeTarget "prunely" */;
+			buildPhases = (
+				459AE7062DD3053200364B7F /* Sources */,
+				459AE7072DD3053200364B7F /* Frameworks */,
+				459AE7082DD3053200364B7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				459AE70C2DD3053200364B7F /* prunely */,
+			);
+			name = prunely;
+			packageProductDependencies = (
+			);
+			productName = prunely;
+			productReference = 459AE70A2DD3053200364B7F /* prunely.app */;
+			productType = "com.apple.product-type.application";
+		};
+		459AE7172DD3053400364B7F /* prunelyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 459AE72F2DD3053400364B7F /* Build configuration list for PBXNativeTarget "prunelyTests" */;
+			buildPhases = (
+				459AE7142DD3053400364B7F /* Sources */,
+				459AE7152DD3053400364B7F /* Frameworks */,
+				459AE7162DD3053400364B7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				459AE71A2DD3053400364B7F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				459AE71B2DD3053400364B7F /* prunelyTests */,
+			);
+			name = prunelyTests;
+			packageProductDependencies = (
+			);
+			productName = prunelyTests;
+			productReference = 459AE7182DD3053400364B7F /* prunelyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		459AE7212DD3053400364B7F /* prunelyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 459AE7322DD3053400364B7F /* Build configuration list for PBXNativeTarget "prunelyUITests" */;
+			buildPhases = (
+				459AE71E2DD3053400364B7F /* Sources */,
+				459AE71F2DD3053400364B7F /* Frameworks */,
+				459AE7202DD3053400364B7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				459AE7242DD3053400364B7F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				459AE7252DD3053400364B7F /* prunelyUITests */,
+			);
+			name = prunelyUITests;
+			packageProductDependencies = (
+			);
+			productName = prunelyUITests;
+			productReference = 459AE7222DD3053400364B7F /* prunelyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		459AE7022DD3053200364B7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					459AE7092DD3053200364B7F = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					459AE7172DD3053400364B7F = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 459AE7092DD3053200364B7F;
+					};
+					459AE7212DD3053400364B7F = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 459AE7092DD3053200364B7F;
+					};
+				};
+			};
+			buildConfigurationList = 459AE7052DD3053200364B7F /* Build configuration list for PBXProject "prunely" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 459AE7012DD3053200364B7F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 459AE70B2DD3053200364B7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				459AE7092DD3053200364B7F /* prunely */,
+				459AE7172DD3053400364B7F /* prunelyTests */,
+				459AE7212DD3053400364B7F /* prunelyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		459AE7082DD3053200364B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459AE7162DD3053400364B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459AE7202DD3053400364B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		459AE7062DD3053200364B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459AE7142DD3053400364B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459AE71E2DD3053400364B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		459AE71A2DD3053400364B7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 459AE7092DD3053200364B7F /* prunely */;
+			targetProxy = 459AE7192DD3053400364B7F /* PBXContainerItemProxy */;
+		};
+		459AE7242DD3053400364B7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 459AE7092DD3053200364B7F /* prunely */;
+			targetProxy = 459AE7232DD3053400364B7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		459AE72A2DD3053400364B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		459AE72B2DD3053400364B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		459AE72D2DD3053400364B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = prunely/prunely.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aayush.prunely;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		459AE72E2DD3053400364B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = prunely/prunely.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aayush.prunely;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		459AE7302DD3053400364B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aayush.prunelyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prunely.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/prunely";
+			};
+			name = Debug;
+		};
+		459AE7312DD3053400364B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aayush.prunelyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prunely.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/prunely";
+			};
+			name = Release;
+		};
+		459AE7332DD3053400364B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aayush.prunelyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = prunely;
+			};
+			name = Debug;
+		};
+		459AE7342DD3053400364B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aayush.prunelyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = prunely;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		459AE7052DD3053200364B7F /* Build configuration list for PBXProject "prunely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459AE72A2DD3053400364B7F /* Debug */,
+				459AE72B2DD3053400364B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		459AE72C2DD3053400364B7F /* Build configuration list for PBXNativeTarget "prunely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459AE72D2DD3053400364B7F /* Debug */,
+				459AE72E2DD3053400364B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		459AE72F2DD3053400364B7F /* Build configuration list for PBXNativeTarget "prunelyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459AE7302DD3053400364B7F /* Debug */,
+				459AE7312DD3053400364B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		459AE7322DD3053400364B7F /* Build configuration list for PBXNativeTarget "prunelyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459AE7332DD3053400364B7F /* Debug */,
+				459AE7342DD3053400364B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 459AE7022DD3053200364B7F /* Project object */;
+}
